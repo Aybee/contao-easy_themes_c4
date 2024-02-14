@@ -1,28 +1,18 @@
 {
-    "name": "terminal42/contao-easy_themes",
+    "name": "terminal42/contao-easy_themes_c4",
     "type": "contao-bundle",
-    "description": "Contao Open Source CMS extension easy_themes",
+    "description": "Contao Open Source CMS extension easy_themes_c4",
     "keywords": ["contao", "easy", "themes"],
     "license": "MIT",
     "authors": [
         {
-            "name": "terminal42 gmbh",
-            "homepage": "https://www.terminal42.ch"
+            "name": "Andreas Burg",
+            "homepage": "https://andreasburg.de"
         }
-    ],
-    "funding": [
-        {
-            "type": "github",
-            "url": "https://github.com/terminal42"
-        },
-        {
-            "type": "other",
-            "url": "https://ko-fi.com/terminal42"
-        }
-    ],
+    ],    
     "support": {
-        "issues": "https://github.com/terminal42/contao-easy_themes/issues",
-        "source": "https://github.com/terminal42/contao-easy_themes"
+        "issues": "https://github.com/Aybee/contao-easy_themes_c4/issues",
+        "source": "https://github.com/Aybee/contao-easy_themes_c4"
     },
     "require": {
         "php": "^7.4 || ^8.0",
@@ -37,11 +27,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Terminal42\\EasyThemesBundle\\": "src/"
+            "Aybee\\EasyThemesBundle\\": "src/"
         }
     },
     "extra": {
-        "contao-manager-plugin": "Terminal42\\EasyThemesBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Aybee\\EasyThemesBundle\\ContaoManager\\Plugin"
     },
     "scripts": {
         "cs-fixer": "tools/ecs/vendor/bin/ecs check src/ --fix --ansi"
