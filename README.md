@@ -1,5 +1,5 @@
-easy_themes
-===========
+easy_themes_c4
+==============
 
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
